@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "dokerize-angular"
+    }
+  },
+  "defaultProject": "dokerize-angular",
+  "cli": {
+    "analytics": "2b2bd131-661e-4704-a483-c6ba28e44c64"
+  }
 }
