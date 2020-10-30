@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-activity',
-  templateUrl: './activity.component.html',
-  styleUrls: ['./activity.component.scss']
+  templateUrl: './saradnici.component.html',
+  styleUrls: ['./saradnici.component.scss']
 })
-export class ActivityComponent implements OnInit {
+export class SaradniciComponent implements OnInit {
 
   constructor() { }
 

@@ -12,12 +12,13 @@ import {NavbarComponent} from './page-content/navbar/navbar.component';
 import {ContentComponent} from './page-content/content/content.component';
 import {myRouting} from './routes/app.routes';
 import { AboutAsComponent } from './page-content/tabs/about-as/about-as.component';
-import { ActivityComponent } from './page-content/tabs/activity/activity.component';
+import { SaradniciComponent } from './page-content/tabs/activity/saradnici.component';
 import { InvestigationComponent } from './page-content/tabs/investigation/investigation.component';
 import { EventsComponent } from './page-content/tabs/events/events.component';
 import { FiristRowComponent } from './page-content/content/firist-row/firist-row.component';
-import { SecundRowComponent } from './page-content/content/secund-row/secund-row.component';
+import { SecondRowComponent } from './page-content/content/second-row/second-row.component';
 import { ThirdRowComponent } from './page-content/content/third-row/third-row.component';
+import { ScrollButtonComponent } from './page-content/content/scroll-button/scroll-button.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +28,13 @@ import { ThirdRowComponent } from './page-content/content/third-row/third-row.co
     NavbarComponent,
     ContentComponent,
     AboutAsComponent,
-    ActivityComponent,
+    SaradniciComponent,
     InvestigationComponent,
     EventsComponent,
     FiristRowComponent,
-    SecundRowComponent,
-    ThirdRowComponent
+    SecondRowComponent,
+    ThirdRowComponent,
+    ScrollButtonComponent
   ],
   imports: [
     BrowserModule,
