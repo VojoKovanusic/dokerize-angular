@@ -1,18 +1,2 @@
-<ul ngbNav #nav="ngbNav" class="nav-tabs">
-  <li ngbNavItem>
-    <a ngbNavLink>Home</a>
-    <ng-template ngbNavContent>First content</ng-template>
-  </li>
-  <li ngbNavItem>
-    <a ngbNavLink>Investigate</a>
-    <ng-template ngbNavContent>
-      <p><ngb-progressbar [showValue]="true" type="success" [value]="25"></ngb-progressbar></p>
-      <p><ngb-progressbar [showValue]="true" type="info" [value]="50"></ngb-progressbar></p>
-      <p><ngb-progressbar [showValue]="true" type="warning" [value]="150" [max]="200"></ngb-progressbar></p>
-      <p><ngb-progressbar [showValue]="true" type="danger" [value]="150" [max]="150"></ngb-progressbar></p>
-
-    </ng-template>
-  </li>
-</ul>
-<div [ngbNavOutlet]="nav"></div>
-
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
