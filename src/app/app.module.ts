@@ -12,13 +12,13 @@ import {NavbarComponent} from './page-content/navbar/navbar.component';
 import {ContentComponent} from './page-content/content/content.component';
 import {myRouting} from './routes/app.routes';
 import { AboutAsComponent } from './page-content/tabs/about-as/about-as.component';
-import { SaradniciComponent } from './page-content/tabs/activity/saradnici.component';
 import { InvestigationComponent } from './page-content/tabs/investigation/investigation.component';
 import { EventsComponent } from './page-content/tabs/events/events.component';
 import { FiristRowComponent } from './page-content/content/firist-row/firist-row.component';
 import { SecondRowComponent } from './page-content/content/second-row/second-row.component';
 import { ThirdRowComponent } from './page-content/content/third-row/third-row.component';
 import { ScrollButtonComponent } from './page-content/content/scroll-button/scroll-button.component';
+import { DonorsComponent } from './page-content/tabs/donors/donors/donors.component';
 
 @NgModule({
   declarations: [
@@ -28,13 +28,13 @@ import { ScrollButtonComponent } from './page-content/content/scroll-button/scro
     NavbarComponent,
     ContentComponent,
     AboutAsComponent,
-    SaradniciComponent,
     InvestigationComponent,
     EventsComponent,
     FiristRowComponent,
     SecondRowComponent,
     ThirdRowComponent,
-    ScrollButtonComponent
+    ScrollButtonComponent,
+    DonorsComponent
   ],
   imports: [
     BrowserModule,
