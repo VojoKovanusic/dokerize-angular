@@ -19,6 +19,9 @@ import { SecondRowComponent } from './page-content/content/second-row/second-row
 import { ThirdRowComponent } from './page-content/content/third-row/third-row.component';
 import { ScrollButtonComponent } from './page-content/content/scroll-button/scroll-button.component';
 import { DonorsComponent } from './page-content/tabs/donors/donors/donors.component';
+import { ProblemsComponent } from './page-content/tabs/investigation/problems/problems.component';
+import { PieChartComponent } from './page-content/tabs/investigation/pie-chart/pie-chart.component';
+import { HorizontalChartComponent } from './page-content/tabs/investigation/horizontal-chart/horizontal-chart.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,10 @@ import { DonorsComponent } from './page-content/tabs/donors/donors/donors.compon
     SecondRowComponent,
     ThirdRowComponent,
     ScrollButtonComponent,
-    DonorsComponent
+    DonorsComponent,
+    ProblemsComponent,
+    PieChartComponent,
+    HorizontalChartComponent
   ],
   imports: [
     BrowserModule,

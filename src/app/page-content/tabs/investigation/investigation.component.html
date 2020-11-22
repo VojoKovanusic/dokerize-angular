@@ -1,27 +1,8 @@
 <br>
 <br>
-
-
 <h1 class="title">Anketa</h1>
 <h2 class="underTitle">Rezultati upitnika</h2>
 <hr>
-
-<div class="container">
-  <div class="row">
-    <div class="col-12 mx-auto">
-
-
-<div style="display: block">
-  <canvas mdbChart
-          [chartType]="chartType"
-          [datasets]="chartDatasets"
-          [labels]="chartLabels"
-          [colors]="chartColors"
-          [options]="chartOptions"
-          [legend]="true"
-          (chartHover)="chartHovered($event)"
-          (chartClick)="chartClicked($event)">
-  </canvas>
-</div>
-</div>
-</div>
+<app-problems></app-problems>
+<app-pie-chart></app-pie-chart>
+<app-horizontal-chart></app-horizontal-chart>

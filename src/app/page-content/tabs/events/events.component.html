@@ -1,8 +1,7 @@
 <br>
 <br>
 
-
-<h1 class="title">Kurs Programirana</h1>
+<app-about-as class="padding"></app-about-as>
 <h2 class="underTitle">Java Core</h2>
 <hr>
 
@@ -18,8 +17,10 @@
       zadataka koji će biti odličan temelj za razvoj IT karijere.
       Cjena kursa zavisi od broja polaznika, okvirno izmedju 50-100 km / mjesečno.
     </div>
+
     <div class="row">
-      <div class="col-6 mx-auto">
+      <div class="col-2 mx-auto"></div>
+      <div class="col-4 mx-auto">
         <table class="table table-striped w-auto">
 
           <!--Table head-->
@@ -50,7 +51,9 @@
         </table>
         <!--Table-->
       </div>
-      <div class="col-6 mx-auto">
+      <div class="col-2 mx-auto"></div>
+
+      <div class="col-4 mx-auto">
         <table class="table table-striped w-auto">
 
           <!--Table head-->
@@ -67,7 +70,7 @@
 
           <!--Table body-->
           <tbody>
-          <tr *ngFor="let el of prviDio" class="table-info">
+          <tr *ngFor="let el of drugiDio" class="table-info">
             <th scope="row">{{el.id}}</th>
             <td>{{el.oblast}}</td>
             <td>{{el.teorija}}</td>
@@ -79,6 +82,8 @@
         </table>
         <!--Table-->
       </div>
+      <div class="col-2 mx-auto"></div>
+
     </div>
   </div>
 </div>
