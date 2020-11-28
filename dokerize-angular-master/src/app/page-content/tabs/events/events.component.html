@@ -1,0 +1,97 @@
+<br>
+<br>
+
+<app-about-as class="padding"></app-about-as>
+<h2 class="underTitle">Java Core</h2>
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 mx-auto">
+      Kurs Java programiranja podrazumeva intezivno učenje programskog jezika Java i praktičan rad na razvoju
+      softverskog rešenja, koristeći programski jezik Java.
+      Kako biste što temeljnije savladali gradivo, sve oblasti se prolaze kroz praktične primere, uz mnoštvo vježbi i
+      zadataka, a na završetku svake oblasti dobija se domaći zadatak.
+      Na samom kraju kursa, svo stečeno znanje primenjuje se na završnom projektu.
+      Radi se o kursu programiranja Jave. Trajanje kursa 5 mjeseci (80 časova). Predavač Java programer
+      sa iskustvom.
+      Plan i program uskaldjen sa potrebama tržišta. Ciljna grupa završne godine srednje škole,
+      nezaposlene osobe do 30 godina starosti. Organizator NVO Razvojni centar Teslić.
+      Akcenta nije samo na teoriskom predavanju, već i u interakciji sa predavačem i ostalim polaznicima uz mnogo
+      logičkih zadataka koji će biti odličan temelj za razvoj IT karijere.
+      Cjena kursa zavisi od statusa polaznika školski uzrast i nezaposlene osobe 50km i zaposlene osobe 100 km/mjesečno.
+      Šta kurs ne uključuje: napredni dio obuke.
+      Svi polaznici koji uspješno polože završni test mogu da apliciraju za napredni dio obuke koji uključuje osnove Springa, Hibernate-a i osnova frontend tehnologija.
+      Osobe koje žele da naprave prvi korak u prekvalifikaciji ili dokvalifikaciji kako bi dobile željeni posao u IT-ju.
+    </div>
+
+    <div class="row">
+      <div class="col-2 mx-auto"></div>
+      <div class="col-4 mx-auto">
+        <table class="table table-striped w-auto">
+
+          <!--Table head-->
+          <thead>
+          <tr>
+            <th>#</th>
+            <th>Oblast</th>
+            <th>Teorija<br>časova</th>
+            <th>Vježbe<br> časova</th>
+            <th>Ukupno</th>
+          </tr>
+          </thead>
+          <!--Table head-->
+
+          <!--Table body-->
+          <tbody>
+          <tr *ngFor="let el of prviDio" class="table-info">
+            <th scope="row">{{el.id}}</th>
+            <td>{{el.oblast}}</td>
+            <td>{{el.teorija}}</td>
+            <td>{{el.vjezbe}}</td>
+            <td>{{el.ukupno}}</td>
+          </tr>
+          </tbody>
+          <!--Table body-->
+
+
+        </table>
+        <!--Table-->
+      </div>
+      <div class="col-2 mx-auto"></div>
+
+      <div class="col-4 mx-auto">
+        <table class="table table-striped w-auto">
+
+          <!--Table head-->
+          <thead>
+          <tr>
+            <th>#</th>
+            <th>Oblast</th>
+            <th>Teorija<br>časova</th>
+            <th>Vježbe<br> časova</th>
+            <th>Ukupno</th>
+          </tr>
+          </thead>
+          <!--Table head-->
+
+          <!--Table body-->
+          <tbody>
+          <tr *ngFor="let el of drugiDio" class="table-info">
+            <th scope="row">{{el.id}}</th>
+            <td>{{el.oblast}}</td>
+            <td>{{el.teorija}}</td>
+            <td>{{el.vjezbe}}</td>
+            <td>{{el.ukupno}}</td>
+          </tr>
+          </tbody>
+          <!--Table body-->
+        </table>
+        <!--Table-->
+      </div>
+      <div class="col-2 mx-auto"></div>
+
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

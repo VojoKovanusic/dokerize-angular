@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/dokerize-angular",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
