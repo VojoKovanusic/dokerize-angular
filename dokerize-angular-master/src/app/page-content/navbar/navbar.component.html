@@ -1,3 +1,4 @@
+<!-- stari n
 <div class="padding-nav">
   <ul class="nav justify-content-center grey lighten-4 py-4 fixed-top">
     <li class="nav-item">
@@ -17,3 +18,44 @@
     </li>
   </ul>
 </div>
+-->
+
+
+<!--Navbar-->
+<div class="navColor">
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark"  [containerInside]="false">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <a class="navbar-brand"   href="#">RCT
+        </a>
+      </ul>
+    </a></mdb-navbar-brand>
+    <!-- Collapsible content -->
+    <links>
+
+      <!-- Links -->
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [routerLink]="'/'">POČETNA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [routerLink]="'/onama'">O NAMA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [routerLink]="'/istrazivanja'">ISTRAZIVANJA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [routerLink]="'/dogadjaji'">DOGADJAJI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect [routerLink]="'/donatori'">DONATORI</a>
+        </li>
+      </ul>
+    </links>
+    <!-- Collapsible content -->
+
+  </mdb-navbar>
+</div>
+<!--/.Navbar-->
